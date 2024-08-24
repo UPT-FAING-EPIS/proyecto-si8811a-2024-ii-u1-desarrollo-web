@@ -3,7 +3,7 @@ import { FaMicrosoft } from 'react-icons/fa';
 
 const Login = () => {
   const handleLogin = () => {
-    alert('Iniciar sesión con Microsoft');
+    window.location.href = 'http://localhost:5000/login'; 
   };
 
   return (
@@ -11,7 +11,7 @@ const Login = () => {
       <div className="w-full max-w-sm bg-white shadow-md rounded-lg p-6">
         <div className="flex justify-center mb-4">
           <img
-            src="https://via.placeholder.com/100" 
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWIWSZx522tAelmtZH81mS1nOZ-_2uwtjr4VLY1qZf7tvuJ08obXkMmA0nCG7PhcLTdz3faWCeBGuxw1expsuXiH0J2i4Kpol7NKQu0NXFACoUuPWJ1w9xG1H751VmMytQ62klNnSCnPM/s400/logo-juegosflorales.png" 
             alt="User Avatar"
             className="w-24 h-24 rounded-full object-cover"
           />
