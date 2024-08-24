@@ -18,7 +18,7 @@ const Login = () => {
         </div>
         <h1 className="text-2xl font-bold text-center mb-4">Login</h1>
         <p className="text-center mb-4 text-gray-600">
-          Ingresa haciendo uso de tu correo upt.pe
+          Ingresa haciendo uso de tu correo universitario upt.pe
         </p>
         <button
           className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md flex items-center justify-center gap-2 hover:bg-blue-700 transition-colors duration-300"
